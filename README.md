@@ -1,7 +1,18 @@
-# my Claude Code skills
+<div align="center">
 
-My full [Claude Code](https://claude.com/claude-code) `~/.claude/skills/` directory, made public so
-you can take whatever's useful. Machine-specific paths have been genericized; nothing here contains
+# claude-skills
+
+**17 drop-in skills for [Claude Code](https://claude.com/claude-code): learning, workflow audits, and engineering discipline.**
+
+![Skills](https://img.shields.io/badge/skills-17-D97757)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-skills-D97757)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+</div>
+
+My full `~/.claude/skills/` directory, made public so you can take whatever's useful.
+Looking for the whole setup (commands, subagents, terminal layer)? See
+[claude-code-kit](https://github.com/Nightdreams-bat/claude-code-kit). Machine-specific paths have been genericized; nothing here contains
 secrets or personal data.
 
 Pick and choose — each folder in `skills/` is self-contained. Copy the ones you want.
@@ -19,7 +30,7 @@ Restart Claude Code.
 **Everything, via script**
 
 ```bash
-git clone https://github.com/<me>/claude-skills
+git clone https://github.com/Nightdreams-bat/claude-skills
 cd claude-skills
 ./install.sh                    # macOS/Linux
 powershell -File install.ps1     # Windows
