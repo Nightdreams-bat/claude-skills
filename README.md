@@ -1,6 +1,6 @@
 <div align="center">
 
-# claude-skills
+<img src="assets/header.png" alt="claude-skills" width="100%">
 
 **17 drop-in skills for [Claude Code](https://claude.com/claude-code): learning, workflow audits, and engineering discipline.**
 
